@@ -1,15 +1,19 @@
-body {
-        background: url('../images/bg.png') no-repeat center center fixed;
+
+body {	
+  		background-color:BlanchedAlmond; 	
+        
+        background: url('../images/bg.png') fixed;
         background-size: cover;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-	}	
+	}
+
+
 	a.button {
-	font-weight: 700;
+	font-weight: 100;
 	color: white;
 	text-decoration: none;
-	top: 50px;
 	padding: .8em 1em calc(.8em + 3px);
 	border-radius: 3px;
 	background: rgb(64,199,129);
@@ -21,4 +25,13 @@ body {
 	background: rgb(33,147,90);
 	box-shadow: 0 3px rgb(33,147,90) inset;
 	}
-	
+@font-face {
+    font-family: Unifont; /* Гарнитура шрифта */
+    src: url(fonts/unifont.ttf); /* Путь к файлу со шрифтом */
+	}
+
+p 	{
+	font-family: Unifont, 'Comic Sans MS';
+	color: #e0ffff;
+	font-size: 32px;
+	}
