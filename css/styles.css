@@ -55,43 +55,16 @@ a.menubutton2 {
 	background: rgb(64,140,255);
 	box-shadow: 0 3px rgb(64,127,255) inset;
 }
-.menu2 {
-    position: fixed; /* Фиксированное положение */
-    right: 5px; /* Расстояние от правого края окна браузера */
-    top: 11%; /* Расстояние сверху */
-    padding: 10px; /* Поля вокруг текста */ 
-    background: #ffe; /* Цвет фона */ 
-    border: 1px solid #333; /* Параметры рамки */ 
-    background: rgb(64,165,255);
-   } 
-.menu3 {
-    position: fixed; /* Фиксированное положение */
-    right: 5px; /* Расстояние от правого края окна браузера */
-    top: 17%; /* Расстояние сверху */
-    padding: 10px; /* Поля вокруг текста */ 
-    background: #ffe; /* Цвет фона */ 
-    border: 1px solid #333; /* Параметры рамки */
-    background: rgb(64,165,255); 
-   }
         
 .fon_scroll {
 			margin:0;
 			width:90%;
 			height:20%;
 			padding:30px;
-			background-image:url(images/text.png);
+			background-image:url(../images/text.png);
 			background-repeat:no-repeat;
 			background-attachment:fixed;
-			background-position:5% 0%;
-	}
-.fon_scroll2 {
-	margin: 0 auto;
-	width:20%;
-	height:40%;
-	padding:20px;
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:5% 2px;	
+			background-position:1% 0%;
 	}
 body {
 	background-color:BlanchedAlmond;
@@ -126,7 +99,12 @@ p 	{
 h1 {
 	font-family: Unifont, 'Comic Sans MS';
 	color: #e0dfff;
-	font-size:24px	
+	font-size:28px;
+	}
+h2 {
+	font-family: Unifont, 'Comic Sans MS';
+	color: #ffe0e0;
+	font-size: 18px;
 	}
 @font-face {
     font-family: Unifont; /* Гарнитура шрифта */
