@@ -67,15 +67,15 @@ a.menubutton2 {
 			background-position:1% 0%;
 	}
 body {
-	background-color:BlanchedAlmond;
+    /*background-blend-mode: multiply;*/
     background: url('../images/bg.png') fixed;
     background-size: cover;
+    background-color: rgb(60,80,60);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
 	}
-
-
+	
 a.button {
 	font-weight: 100;
 	color: white;
@@ -90,7 +90,7 @@ a.button {
 	a.button:active {
 	background: rgb(33,147,90);
 	box-shadow: 0 3px rgb(33,147,90) inset;
-	}
+	}	
 p 	{
 	font-family: Unifont, 'Comic Sans MS';
 	color: #e0ffff;
@@ -111,4 +111,7 @@ h2 {
     src: url(fonts/unifont.ttf); /* Путь к файлу со шрифтом */
 	}
 
-
+.error{
+	font-family: Unifont;
+	font-size: 140px;
+	}
