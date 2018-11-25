@@ -103,7 +103,7 @@ body {
 	}
 
 
-	a.button {
+a.button {
 	font-weight: 100;
 	color: white;
 	text-decoration: none;
@@ -118,11 +118,6 @@ body {
 	background: rgb(33,147,90);
 	box-shadow: 0 3px rgb(33,147,90) inset;
 	}
-@font-face {
-    font-family: Unifont; /* Гарнитура шрифта */
-    src: url(fonts/unifont.ttf); /* Путь к файлу со шрифтом */
-	}
-
 p 	{
 	font-family: Unifont, 'Comic Sans MS';
 	color: #e0ffff;
@@ -133,7 +128,9 @@ h1 {
 	color: #e0dfff;
 	font-size:24px	
 	}
-.centered {
-	top: 20px;
-	left: 20px;
+@font-face {
+    font-family: Unifont; /* Гарнитура шрифта */
+    src: url(fonts/unifont.ttf); /* Путь к файлу со шрифтом */
 	}
+
+
