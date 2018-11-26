@@ -1,5 +1,6 @@
 a.menubutton0 {
 	position: fixed;
+	font-family: Unifont;
 	right: 5px;
 	top: 4%;
 	padding: 10px;
@@ -34,6 +35,7 @@ a.menubutton1 {
 	a.menubutton1:hover { background: rgb(64, 190, 255); }
 	a.menubutton1:active {
 	background: rgb(64,140,255);
+	font-family: Unifont;
 	box-shadow: 0 3px rgb(64,127,255) inset;
 }
 a.menubutton2 {
@@ -43,6 +45,7 @@ a.menubutton2 {
 	padding: 10px;
 	background: rgb(64,165,255);
 	font-weight: 100;
+	font-family: Unifont;
 	color: white;
 	text-decoration: none;
 	padding: .8em 1em calc(.8em + 3px);
@@ -70,6 +73,7 @@ body {
     /*background-blend-mode: multiply;*/
     background: url('../images/bg.png') fixed;
     background-size: cover;
+    font-family: Unifont;
     background-color: rgb(60,80,60);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -92,17 +96,17 @@ a.button {
 	box-shadow: 0 3px rgb(33,147,90) inset;
 	}	
 p 	{
-	font-family: Unifont, 'Comic Sans MS';
+	font-family: Unifont;
 	color: #e0ffff;
 	font-size: 32px;
 	}
 h1 {
-	font-family: Unifont, 'Comic Sans MS';
+	font-family: Unifont;
 	color: #e0dfff;
 	font-size:28px;
 	}
 h2 {
-	font-family: Unifont, 'Comic Sans MS';
+	font-family: Unifont;
 	color: #ffe0e0;
 	font-size: 18px;
 	}
