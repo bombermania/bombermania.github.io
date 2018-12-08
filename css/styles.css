@@ -58,7 +58,47 @@ a.menubutton2 {
 	background: rgb(64,140,255);
 	box-shadow: 0 3px rgb(64,127,255) inset;
 }
-        
+.wrap
+{
+  margin: 0 auto;
+  width: 60%;  /* отступы относительно окна браузера */
+}        
+.logo{
+  float: left; /* обтекание логотипа */
+}
+.logo a {
+  display: block; /* переопределение в блочный  */
+}
+.nav {
+  float: right;   /* обтекание логотипа */
+  margin-top: 0.82em;
+}
+.nav > ul > li {
+  display:inline-block;  /* переопределение в строчно-блочный  */
+}
+.nav > ul > li.active a{
+  background: #1E90FF;
+  color: #ffffff;
+}
+.nav > ul > li > a {
+  display: block;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.5em 1em;
+  color: #FFF;
+  text-decoration: none;
+  background: #00BFFF;
+  -webkit-transition: 0.9s; /* плавный переход  */
+  -moz-transition: 0.9s;
+  -o-transition: 0.9s;
+  transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+  color: #fff;
+  background: #87CEEB;
+}
+
 .fon_scroll {
 			margin:0;
 			width:90%;
@@ -73,7 +113,8 @@ body {
     /*background-blend-mode: multiply;*/
     background: url('../images/bg.png') fixed;
     background-size: cover;
-    font-family: Unifont;
+    text-align: center;
+    font-family: Unifont, 'Lato';
     background-color: rgb(60,80,60);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -107,7 +148,7 @@ h1 {
 	}
 h2 {
 	font-family: Unifont;
-	color: #ffe0e0;
+	color: #fff;
 	font-size: 18px;
 	}
 @font-face {
@@ -119,3 +160,49 @@ h2 {
 	font-family: Unifont;
 	font-size: 140px;
 	}
+.footers{
+	 margin-bottom: -7px;
+	}
+h4 {
+	font-family: Unifont;
+	color: #ffe0e0;
+	font-size: 12px;
+	margin-bottom: 10%;
+	}
+.bg1{
+  color: #000;
+}
+#test{
+	width: 65%;
+	height: 100%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 5px;
+	background: rgba(0,206,209, 0.55);
+	border: 1px solid green; 
+}
+#test1{
+	width: 65%;
+	height: 100%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 5px;
+	background: rgba(240,230,140, 0.55);
+	border: 1px solid yellow; 
+}
+
+#test2{
+	width: 65%;
+	height: 100%;
+	margin-top: 5%;
+	margin-left: 5%;
+	padding: 5px;
+	background: rgba(221,160,221, 0.55);
+	border: 1px solid purple; 
+}
+.border1 {
+		border: 3px solid yellow;
+		}
+.border2 {
+		border: 3px solid purple;
+		}
