@@ -101,8 +101,10 @@ body {
 	}
 .fon_scroll_1 {
 	margin:0 auto;
-	width:70%;
+	width:80%;
+	/*
 	height:600px;
+	*/ 
 	border-radius: 10px; 
 	background-repeat:no-repeat;
 	background-attachment:fixed;
@@ -222,3 +224,6 @@ h4 {
 {
 	padding: 10px;
 }
+#perenosborder3 {
+	margin: center;
+	}
