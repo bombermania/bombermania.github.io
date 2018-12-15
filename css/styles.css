@@ -83,8 +83,13 @@ a.button:active {
 	}
 body {
     /*background-blend-mode: multiply;*/
+	background-color:BlanchedAlmond;
     background: url('../images/bg.png') fixed;
     background-size: cover;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
     text-align: center;
     font-family: Unifont, 'Lato';
     background-color: rgb(60,80,60);
@@ -92,13 +97,33 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 	}
-	
+.fon_scroll_1 {
+	margin:0 auto;
+	width:70%;
+	height:600px;
+	border-radius: 10px; 
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:0% 0%;
+	}	
+#scroll1 {
+	background-color: rgba(0, 250, 154, 0.75);	
+
+	}
+#scroll2 {
+	background-color: rgba(32, 178, 170, 0.75);	
+
+	}
+#scroll3 {
+	background-color: rgba(218, 112, 214, 0.75);	
+
+	}
 a.button {
 	font-weight: 100;
 	color: white;
 	text-decoration: none;
 	padding: .8em 1em calc(.8em + 3px);
-	border-radius: 3px;
+	border-radius: 10px;
 	background: rgb(64,199,129);
 	box-shadow: 0 -3px rgb(53,167,110) inset;
 	transition: 0.2s;
@@ -143,6 +168,7 @@ h4 {
 	}
 .bg1{
   color: #000;
+  
 }
 #test{
 	width: 65%;
@@ -182,8 +208,15 @@ h4 {
 	border: 1px solid purple; 
 }
 .border1 {
-		border: 3px solid yellow;
+		border: 3px solid green;
 		}
 .border2 {
+		border: 3px solid blue;
+		}
+.border3 {
 		border: 3px solid purple;
 		}
+.content
+{
+	padding: 10px;
+}
