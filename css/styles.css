@@ -91,7 +91,9 @@ body {
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%;
     text-align: center;
-    font-family: Unifont, 'Lato';
+    font-family: Unifont, Lato;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: rgb(60,80,60);
     -webkit-background-size: cover;
     -moz-background-size: cover;
